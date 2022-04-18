@@ -92,6 +92,7 @@ export default {
 <style lang="postcss" scoped>
 .core-button {
     @apply relative;
+    font-family: unset;
 
     & > a {
         @apply font-sans outline-none;
